@@ -73,7 +73,7 @@ public class CaptchaGenerator {
 
         g.setFont(smallFont);
         g.setColor(Color.BLACK);
-        String text = "FredJCaptcha made by Fred (Github: TheOrangeDev)";
+        String text = "FredJCaptcha made by Fred (Github: Fred-abcd)";
         int textWidth = g.getFontMetrics(smallFont).stringWidth(text);
         g.drawString(text, width - textWidth - 10, height - 50);
 
